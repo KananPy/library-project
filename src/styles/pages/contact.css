@@ -57,12 +57,13 @@ body {
   position: absolute;
   width: 610px;
   height: 75px;
-  margin-top: 40px;
-  margin-left: 15px;
+  margin-top: 280px;
+  margin-left: 350px;
   background: #e16a00;
+  color: white;
 
 }
 
 #section-5{
-  margin-top: 354px;
+  margin-top: 454px;
 }
