@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"
+    /> -->
+    <link rel="stylesheet" href="../styles/general/global.css" />
+    <link rel="stylesheet" href="../styles/pages/about.css" />
+    <link rel="stylesheet" href="../styles/response/aboutresponse.css" />
+    <!-- <link rel="stylesheet" href="../styles/general/header.css" /> -->
+
+    <!-- <link rel="stylesheet" href="../styles/general/footer.css" /> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="shortcut icon"
+      href="../assents/icons/book.svg"
+      type="image/x-icon"
+    />
+    <title>BookPage</title>
+  </head>
+  <body>
+    <header id="header" class="pt-3 bg-white">
+      <div class="container d-flex justify-content-around align-items-center">
+        <div id="logo">
+          <a href="./index.html" id="link">
+            <img src="../assents/icons/logo-color.svg " alt="" />
+          </a>
+        </div>
+        <nav id="nav-header">
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a
+                id="nav-link"
+                href="/library-project/index.html"
+                class="nav-link nav-active"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../pages/catolog.html" id="nav-link" class="nav-link"
+                >Catalog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../pages/about.html" id="active-item" class="nav-link"
+                >About Store</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../pages/contact.html" id="nav-link" class="nav-link"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../pages/search.html" id="nav-link" class="nav-link"
+                >Search</a
+              >
+            </li>
+          </ul>
+
+          <div id="logo2" class="d-flex align-items-center">
+            <img src="../assents/icons/human.svg" alt="" id="images" />
+            <p id="paragraf">Join us</p>
+          </div>
+        </nav>
+
+        <div id="forResponsivePage">
+          <img src="../assents/icons/human.svg" alt="" id="response-icon" />
+          <img src="../assents/icons/hambuger.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 collage">
+              <button class="backbtn"><h4>> Back</h4></button> <br />
+              <button class="bluebtn"><h5>2017</h5></button>
+
+              <h3 class="h3_class">Order in Chaos</h3>
+              <h1 class="h1_class">2 days ago added</h1>
+              <p class="text_p">Konstantin Koptelov</p>
+              <span class="text_span">
+                s of Kiev can receive an order on the day of its registration.
+                Customers from <br />
+                other cities of Ukraine can receive an order within 1-5 days,
+                depending on <br />
+                the location of the settlement and the selected delivery method.
+                Orders <br />
+                over UAH 1000 are delivered free of charge *. You can see the
+                available <br />
+                methods, exact terms and cost of delivery during checkout in the
+                order <br />
+                basket, after selecting the delivery city. <br />
+                More details
+              </span>
+            </div>
+            <div class="col-6">
+              <img
+                class="book_img"
+                src="../assents/images/firstbook.svg"
+                alt="book"
+              />
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 form_col">
+              <form action="/action_page.php">
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="your anonim comment..."
+                />
+                <button>
+                  <img src="../assents/images/send.svg" alt="send" />
+                </button>
+              </form>
+            </div>
+            <div class="col-6"></div>
+          </div>
+          <div class="row row_anonim">
+            <div class="col-6 text_anonim">
+              <div class="row">
+                <div class="col-1"><p>anonim</p></div>
+                <div class="col-11 ps-5"><p>18.32 today</p></div>
+              </div>
+              <div class="text_area">
+                <p>
+                  Woah, your project looks awesome! How long have you been
+                  coding for? I’m still new, but think I want to dive into React
+                  as well soon. Perhaps you can give me an insight on where I
+                  can learn React? Thanks!
+                </p>
+              </div>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-6 text_anonim_two">
+              <div class="row">
+                <div class="col-1"><p>anonim</p></div>
+                <div class="col-11 ps-5"><p>18.32 today</p></div>
+              </div>
+              <div class="text_area_two">
+                <p>
+                  Woah, your project looks awesome! How long have you been
+                  coding for? I’m still new, but think I want to dive into
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="section-5">
+          <div class="social-media-text h2">Follow us on social media</div>
+          <div class="social-media-icons">
+            <img
+              src="../assents/icons/facebook.svg"
+              alt=""
+              class="images-icon"
+            />
+            <img src="../assents/icons/twiter.svg" alt="" class="images-icon" />
+            <img src="../assents/icons/instagram.svg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer-logo" class="pt-3">
+      <section id="footer-top">
+        <div>
+          <img src="../assents/images/logo-group.svg" alt="" />
+        </div>
+
+        <div class="footer-top-informations pt-2">
+          <div class="footer-top-informaition">
+            <ul class="list-group">
+              <li class="list-group-item bg-transparent text-white">Popular</li>
+              <li class="list-group-item bg-transparent text-white">
+                Programming
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Books for children
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Psychology
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top-informaition">
+            <ul class="list-group">
+              <li class="list-group-item bg-transparent text-white">Cash</li>
+              <li class="list-group-item bg-transparent text-white">
+                Delivery
+              </li>
+              <li class="list-group-item bg-transparent text-white">Payment</li>
+              <li class="list-group-item bg-transparent text-white">
+                About the store
+              </li>
+            </ul>
+          </div>
+          <div class="footer-top-informaition">
+            <ul class="list-group">
+              <li class="list-group-item bg-transparent text-white">Help</li>
+              <li class="list-group-item bg-transparent text-white">
+                Contacts
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Purchase returns
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Buyer help
+              </li>
+            </ul>
+          </div>
+          <div class="rigth-footer">
+            <p class="footer-phoneNumber">+38 (071) 339-16-26</p>
+            <button class="footer-btn">
+              <a href="https://chat.whatsapp.com/FTxNmYyYr0aH3gF7mYYQ9E"
+                >Request a call</a
+              >
+            </button>
+          </div>
+        </div>
+      </section>
+      <section id="footer-bottom">
+        <div>
+          All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy Policy
+        </div>
+      </section>
+    </footer>
+    <footer id="forResponseFooter">
+      <section id="footer-top">
+        <div>
+          <img src="../assents/images/logo-group.svg" alt="" id="footer-img" />
+        </div>
+      </section>
+      <section id="footer-main-forResponse">
+        <nav id="footer-nav">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Catalog</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Search</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section id="footer-contact">
+        <div class="rigth-footer">
+          <p class="footer-phoneNumber">+38 (071) 339-16-26</p>
+          <button class="footer-btn"><a href="">Request a call</a></button>
+        </div>
+      </section>
+      <section id="footer-bottom">
+        <div>Library BookStore EACamp</div>
+        <div>© 2003-2023</div>
+      </section>
+    </footer>
+  </body>
+</html>

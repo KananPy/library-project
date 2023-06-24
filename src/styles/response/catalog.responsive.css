@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px){
+    .aside_div .col-4{
+      width: 268px;
+    }
+  
+    .aside_div{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    /* .one_catolog_search{
+      margin-top: 15px;
+      margin-top: 48px;
+      margin-left: -241px;
+    }
+  
+    .second_catolog_search .col-2 ul{
+      margin-left: 102px;
+      margin-top: 48px;
+    } */
+  }
+  
