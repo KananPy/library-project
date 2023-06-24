@@ -1,0 +1,63 @@
+.container-contact {
+  margin-top: 10%;
+}
+
+.title h1 {
+  position: absolute;
+  width: 215px;
+  height: 71px;
+  margin-left: 215px;
+  top: 185px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 196.19%;
+
+  /* identical to box height, or 71px */
+  display: flex;
+  align-items: center;
+
+  /* Gray 1 */
+  color: #333333;
+}
+
+.inputs1 {
+  display: flex;
+  margin-right: 135px;
+}
+
+.inputs {
+  margin-top: 284px;
+  margin-left: 207px;
+}
+
+.form-control {
+  box-sizing: border-box;
+  margin: 15px;
+  position: absolute;
+  width: 610.46px;
+  height: 75px;
+
+  background: #ffffff;
+  border: 1px solid #cecece;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+.send-btn {
+  position: absolute;
+  width: 610px;
+  height: 75px;
+  margin-top: 40px;
+  margin-left: 15px;
+  background: #e16a00;
+
+}
+
+#section-5{
+  margin-top: 354px;
+}
