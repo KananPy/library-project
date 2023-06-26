@@ -4,7 +4,7 @@ body {
 
 
 .searchMain{
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 .searchText {
@@ -249,3 +249,35 @@ body {
 .next:hover {
     opacity: 0.5;
 }
+/* Modal Css  */
+#modalJoin{
+    font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color:#000000;
+  
+  }
+  #modalFullName::placeholder && #modalEmail::placeholder{
+    font-family: 'Crimson Text', serif;
+    font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #797667;
+  
+  }
+  #modalBtn{
+    background-color: #E16A00 ;
+    font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  }
+  
