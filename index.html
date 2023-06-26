@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./src/styles/response/homeResponce.css" />
   </head>
   <body>
-    <header id="header" class="pt-3 bg-white">
+    <header id="header" class="pt-3 ">
       <div class="container d-flex justify-content-around align-items-center">
         <div id="logo">
           <a href="./index.html" id="link">
@@ -62,7 +62,12 @@
             </li>
           </ul>
 
-          <div id="logo2" class="d-flex align-items-center">
+          <div
+            id="logo2"
+            class="d-flex align-items-center"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             <img src="./src/assents/icons/human.svg" alt="" id="images" />
             <p id="paragraf">Join us</p>
           </div>
@@ -163,6 +168,36 @@
           <img src="./src/assents/icons/instagram.svg" alt="" />
         </div>
       </section>
+            <!-- Modal -->
+            <div
+            class="modal fade pb-3 "
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header border-bottom-0">
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body d-flex flex-column justify-content-between align-items-center pb-5" >
+                  <h2 class="mb-3" id="modalJoin">Join Us</h2>
+                  <input type="text" class="form-control mb-3 w-75" id="modalFullName" aria-describedby="emailHelp" placeholder="Full Name">
+                  <input type="email" class="form-control mb-3 w-75" id="modalEmail" aria-describedby="emailHelp" placeholder="Email">
+
+         <button class="w-75 mb-3 p-2 " id="modalBtn">Join</button>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+    
     </main>
     <footer id="footer-logo" class="pt-3">
       <section id="footer-top">
@@ -170,53 +205,77 @@
           <img src="./src/assents/images/logo-group.svg" alt="" />
         </div>
 
-        
         <div class="footer-top-informations pt-2">
           <div class="footer-top-informaition">
-            <ul class="list-group ">
+            <ul class="list-group">
               <li class="list-group-item bg-transparent text-white">Popular</li>
-              <li class="list-group-item bg-transparent text-white" >Programming</li>
-              <li class="list-group-item bg-transparent text-white">Books for children</li>
-              <li class="list-group-item bg-transparent text-white">Psychology</li>
+              <li class="list-group-item bg-transparent text-white">
+                Programming
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Books for children
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Psychology
+              </li>
             </ul>
           </div>
           <div class="footer-top-informaition">
             <ul class="list-group">
-              <li class="list-group-item bg-transparent text-white">Cash </li>
-              <li class="list-group-item bg-transparent text-white">Delivery</li>
-              <li class="list-group-item bg-transparent text-white"> Payment</li>
-              <li class="list-group-item bg-transparent text-white"> About the store</li>
+              <li class="list-group-item bg-transparent text-white">Cash</li>
+              <li class="list-group-item bg-transparent text-white">
+                Delivery
+              </li>
+              <li class="list-group-item bg-transparent text-white">Payment</li>
+              <li class="list-group-item bg-transparent text-white">
+                About the store
+              </li>
             </ul>
           </div>
           <div class="footer-top-informaition">
             <ul class="list-group">
-              <li class="list-group-item bg-transparent text-white">Help </li>
-              <li class="list-group-item bg-transparent text-white">Contacts</li>
-              <li class="list-group-item bg-transparent text-white"> Purchase returns</li>
-              <li class="list-group-item bg-transparent text-white"> Buyer help</li>
+              <li class="list-group-item bg-transparent text-white">Help</li>
+              <li class="list-group-item bg-transparent text-white">
+                Contacts
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Purchase returns
+              </li>
+              <li class="list-group-item bg-transparent text-white">
+                Buyer help
+              </li>
             </ul>
           </div>
           <div class="rigth-footer">
             <p class="footer-phoneNumber">+38 (071) 339-16-26</p>
-             <button class="footer-btn"> <a href="https://chat.whatsapp.com/FTxNmYyYr0aH3gF7mYYQ9E">Request a call</a> </button>
-
+            <button class="footer-btn">
+              <a href="https://chat.whatsapp.com/FTxNmYyYr0aH3gF7mYYQ9E"
+                >Request a call</a
+              >
+            </button>
           </div>
         </div>
       </section>
-      <section id="footer-bottom" >
-        <div >All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy Policy</div>
+      <section id="footer-bottom">
+        <div>
+          All rights reserved © 2003-2021 LIBRARY TERMS OF USE | Privacy Policy
+        </div>
       </section>
     </footer>
     <footer id="forResponseFooter">
       <section id="footer-top">
         <div>
-          <img src="./src/assents/images/logo-group.svg" alt="" id="footer-img"/>
+          <img
+            src="./src/assents/images/logo-group.svg"
+            alt=""
+            id="footer-img"
+          />
         </div>
       </section>
       <section id="footer-main-forResponse">
         <nav id="footer-nav">
           <ul>
-            <li> <a href="">Home</a></li>
+            <li><a href="">Home</a></li>
             <li><a href="">Catalog</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Contact us</a></li>
@@ -227,8 +286,7 @@
       <section id="footer-contact">
         <div class="rigth-footer">
           <p class="footer-phoneNumber">+38 (071) 339-16-26</p>
-           <button class="footer-btn"> <a href="">Request a call</a> </button>
-
+          <button class="footer-btn"><a href="">Request a call</a></button>
         </div>
       </section>
       <section id="footer-bottom">
@@ -254,11 +312,11 @@
       crossorigin="anonymous"
     ></script>
     <!--Jquery Js-->
-    <script
+    <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
       integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
+    ></script> -->
   </body>
 </html>
